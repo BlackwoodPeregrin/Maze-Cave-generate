@@ -7,7 +7,7 @@
 #include <QMainWindow>
 #include <QTimer>
 
-#include "controller.hpp"
+#include "../controller/controller.hpp"
 #include "mazescene.hpp"
 
 QT_BEGIN_NAMESPACE

@@ -9,24 +9,26 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    cave.cpp \
     main.cpp \
-    mainwindow.cpp \
-    maze.cpp
+    model/cave.cpp \
+    model/maze.cpp \
+    view/mainwindow.cpp
 
 HEADERS += \
-    cave.hpp \
-    controller.hpp \
-    mainwindow.hpp \
-    maze.hpp \
-    mazescene.hpp
+    controller/controller.hpp \
+    model/cave.hpp \
+    model/maze.hpp \
+    view/mainwindow.hpp \
+    view/mazescene.hpp
 
 FORMS += \
-    mainwindow.ui
+    view/ui/mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+win32:RC_FILE = icon.rc
 
 ICON += "icon.png"

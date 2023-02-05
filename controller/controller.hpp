@@ -3,8 +3,8 @@
 
 #include <QString>
 
-#include "cave.hpp"
-#include "maze.hpp"
+#include "../model/cave.hpp"
+#include "../model/maze.hpp"
 
 namespace s21 {
 
