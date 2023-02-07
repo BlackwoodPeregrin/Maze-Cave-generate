@@ -14,6 +14,13 @@
     Button 'Save' - save current condition Maze
     Button 'Generate' - generate new condition Maze
     Sliders 'Width' && 'Height' - change size generate Maze
+    Left Mouse Button - on/off start position
+    
+![img](https://github.com/BlackwoodPeregrin/Maze/raw/develop/img/start_pos.png)
+    
+    Right Mouse Button - install finish position and show result path
+
+![img](https://github.com/BlackwoodPeregrin/Maze/raw/develop/img/show_path.png)
 
 ## View Interface Functional Cave
 
